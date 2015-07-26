@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dialog_title">#40a397</color>
+    <color name="app_bar">#40a397</color>
+    <color name="statusbar">#0c201e</color>
+</resources>
