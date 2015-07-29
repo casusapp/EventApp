@@ -29,11 +29,16 @@
         <activity
             android:name=".views.activity.HomeActivity"
             android:label="@string/title_activity_home"
-            android:theme="@style/AppTheme.Mytheme"
             android:screenOrientation="portrait"
-            >
+            android:theme="@style/AppTheme.Mytheme" >
+        </activity>
+        <activity
+            android:name=".views.activity.CreateEvent"
+            android:label="@string/title_activity_create_event"
+            android:theme="@style/AppTheme.Mytheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
