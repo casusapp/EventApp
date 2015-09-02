@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.ovent.eventapp.views.fragments.NavigationDrawerFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/action_bar_black_back"
+            android:layout_gravity="center_horizontal"
+
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Profile Name"
+        android:layout_gravity="center_horizontal"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="100dp"
+        android:background="#cccccc"/>
+
+</LinearLayout>
+
+    <!--<ListView
+        android:id="@+id/drawer_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:background="@color/white"
+        android:divider="#cccccc"
+        android:dividerHeight="0dp"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:scrollbars="none" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/action_person"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ic_action_person"/>
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:text="Home"
+                android:id="@+id/home"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/action_person"
+            android:textSize="18sp"
+
+
+
+            />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#cccccc"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/upcoming"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ic_action_person"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:text="Upcoming events"
+                android:id="@+id/upcoming_events"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/upcoming"
+                android:textSize="18sp"
+
+
+
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#cccccc"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/map_image"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ic_action_person"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:text="Upcoming events"
+                android:id="@+id/maps_events"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/map_image"
+                android:textSize="18sp"
+
+
+
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#cccccc"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
